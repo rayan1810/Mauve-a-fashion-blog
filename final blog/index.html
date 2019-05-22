@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel = "shortcut icon" type = "image/x-icon" href = "icon.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>M A U V E</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    
+    <style>
+      body {
+          margin: 0;
+      }
+  
+      .angle {
+          margin: -75px;
+          top: 350px;
+          height: 700px;
+          background-image: url("fash.jpg");
+         transform: rotate(-5deg);
+         background-size :80%;
+         background-position-x: 70%; 
+          z-index: 5;
+          
+      }
+  
+      .revAngle {
+          margin: -75px;
+          width: 150%;
+          height: 700px;
+          background-image: url("img7.jpg");
+          background-size: 70%;
+          transform: rotate(5deg);
+          z-index: 5;
+      }
+  
+      .strait1 {
+          height: 700px;
+          background-image: url("img2.jpg");
+          background-size: 105%
+
+      }
+      .strait2 {
+          height: 700px;
+          background-image: url("img5.jpg");
+          background-size: 100%;
+
+      }
+      .strait3 {
+          height: 700px;
+          background-image: url("img4.jpg");
+          background-repeat: no-repeat;
+          background-size: 100%;
+
+
+      }
+  
+  </style>
+
+
+
+    </head>
+  <body>
+    <h1 id="heading1" style="word-spacing:20px;">M A U V E</h1><h6 id="heading2">A fashion hub!</h6>
+    <div class="topnav" >
+  <a class="active" href="/mainejs">Home</a>
+  
+<div class="dropdown">
+  <button class="dropbtn">Categories</button>
+  <div class="dropdown-content">
+    <a href="http://35.165.20.219:8080/menejs">Men</a>
+    <a href="http://35.165.20.219:8080/womenejs">Women</a>
+    <a href="http://35.165.20.219:8080/fashionshowejs">Fashion Shows</a>
+    <a href="http://35.165.20.219:8080/makeupejs">Makeups</a>
+    <a href="http://35.165.20.219:8080/skincareejs">Skincare</a>
+    <a href="http://35.165.20.219:8080/haircareejs">Haircare</a>
+  </div>
+</div>
+  <a class="active" href="http://35.165.20.219:8080/contact">Contact</a>
+  <a class="active" href="http://35.165.20.219:8080/about">About</a>
+  <a class="active" href="http://35.165.20.219:8080/log">LogIn</a>
+  <a class="active" href="http://35.165.20.219:8080/log">SignUp</a>
+  <!-- 
+    
+   -->
+  <!-- when user is logged in -->
+  <!-- 
+
+   -->
+  <a class="active" href="/content">Write</a>
+
+
+
+
+
+</div>
+<div style="background-color: #ffe6e6;margin-left: 10%;text-align: left;padding-top: 1%;margin-right: 80%;background-size: contain;border-width: thick;margin-bottom: 300px;padding: 1%;width:15%;position:absolute"><marquee behaviour="alternate" direction="up">
+<h3 style="color: #5F9EA0">LATEST UPDATES!</h3>
+<ol>
+<li>Helo</li>
+<li>Helo</li>
+<li>Helo</li>
+<li>Helo</li>
+<li>Helo</li>
+</ol>
+</marquee>
+</div>
+<script> 
+  $(document).ready(function(){
+    $("#flip").click(function(){
+      $("#panel").slideToggle("fast");
+    });
+  });
+</script>  
+<br><br><br><div id="flip" style="border: solid 2px;background-color: #ffe6e6;border-radius:10px;box-shadow: 5px 5px 10px black;border-color: #ffe6e6;margin-left: 35%;margin-right: 35%;">
+<h1 style="text-align:center">Welcome To <u>M A U V E</u></h1></div>
+<br><br><br><br>
+
+<h3 style="text-align:center;margin-left:10%;margin-right:10%;">
+<div id="panel">This is a Fashion Blog where everyone gets a chance of becoming a blogger! to know more <u><a href="/aboutus">click here</a></u></div></h3>
+
+<!-- 
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < 3; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > 3) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+    
+</script>
+<div class="slideshow-container">
+<div class="mySlides fade">
+  <img src="img2.jpg" style="width:80%;margin-left:10%;margin-right:10%;">
+</div>
+<div class="mySlides fade">
+  <img src="img3.jpg" style="width:80%;margin-left:10%;margin-right:10%;">
+  
+</div>
+<div class="mySlides fade">
+  <img src="img1.jpg" style="width:80%;margin-left:10%;margin-right:10%;">
+</div>
+</div>
+<br>
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div> -->
+<h1 style="text-align:center;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;color: #5F9EA0;font-size: 500%">❝ This is what we have.❞</h1>
+<div class="strait1"><h1 style="position:relative;left: 23%;border:solid 2px;top: 300px;text-align:center;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;color: white;font-size: 500%">❝ Women's Fashion❞</h1>
+</div>
+<div class="angle"><h1 style="transform: rotate(+5deg);z-index: 5;position:relative;right: 23%;border:solid 2px;top: 300px;text-align:center;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;color: white;font-size: 500%">❝ Fashion Shows ❞</h1>
+</div>
+<div class="strait2"><h1 style="position:relative;left: 23%;border:solid 2px;top: 300px;text-align:center;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;color: white;font-size: 500%">❝ Hair Care ❞</h1>
+</div>
+<div class="revAngle"><h1 style="transform: rotate(-5deg);z-index: 5;position:relative;right: 29%;border:solid 2px;top: 300px;text-align:center;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;color: white;font-size: 500%">❝ Makeups Tips ❞</h1>
+</div>
+<div class="strait3"><h1 style="position:relative;left: 23%;border:solid 2px;top: 300px;text-align:center;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;color: white;font-size: 500%">❝ Men's Fashion ❞</h1>
+</div>
+
+
+
+
+
+
+
+<FOOter >
+<h2 id="fhead">"Be Yourself"</h2>
+<h4>Everyone else is taken</h4>
+<h5 style="text-align:center">Follow us on</h5>
+<a href="www.fb.com" style="margin-left:50%"><img src="fb.png" width="20px" height="20px" alt=""></a>
+<h6 style="text-align:center">©Copyright 2019 by Mauve Blogs. All Rights Reserved.
+    Powered by Amazon Web Services.</h6>
+
+</FOOter>
+
+  </body>
+</html>

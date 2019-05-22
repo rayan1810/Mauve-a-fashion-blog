@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title></title>
+    
+  </head>
+  <body>
+    <h1 id="heading1" style="word-spacing:20px;">M A U V E</h1><h6 id="heading2">A fashion hub!</h6>
+    <div class="topnav" >
+  <a class="active" href="/mainejs">Home</a>
+  
+<div class="dropdown">
+  <button class="dropbtn">Categories</button>
+  <div class="dropdown-content">
+    <a href="http://35.165.20.219:8080/menejs">Men</a>
+    <a href="http://35.165.20.219:8080/womenejs">Women</a>
+    <a href="http://35.165.20.219:8080/fashionshowejs">Fashion Shows</a>
+    <a href="http://35.165.20.219:8080/makeupejs">Makeups</a>
+    <a href="http://35.165.20.219:8080/skincareejs">Skincare</a>
+    <a href="http://35.165.20.219:8080/haircareejs">Haircare</a>
+  </div>
+</div>
+  <a class="active" href="http://35.165.20.219:8080/contact">Contact</a>
+  <a class="active" href="http://35.165.20.219:8080/about">About</a>
+  <a class="active" href="http://35.165.20.219:8080/log">LogIn</a>
+  <a class="active" href="http://35.165.20.219:8080/log">SignUp</a>
+  <!-- 
+    
+   -->
+  <!-- when user is logged in -->
+  <!-- 
+
+   -->
+  <a class="active" href="http://35.165.20.219:8080/content">Write</a>
+  
+  
+      </div> 
+    <form class="f" action="/write" method="post">
+
+      <input id="author" type="text" name="auth" value=""placeholder="enter your name"><br><br><hr>
+      <input id = "TT" type="text" name="title" value=""placeholder="Title"><br><br><hr>
+      <textarea id="textareaCode" name="ta" rows="20" cols="147"placeholder="Tell your story....."></textarea><br><br><hr><h2 id="h">Upload image</h2><br>
+
+    <input id="up" type="file" name="upload" value="s" multiple><br><br><hr>
+
+    <div id="cato">
+      Categories :
+    <input type="radio" name="categories" value="Men">Men
+    <input type="radio" name="categories" value="Women">Women
+    <input type="radio" name="categories" value="Fashion Shows">Fashion Shows
+    <input type="radio" name="categories" value="Makeups">Makeups
+    <input type="radio" name="categories" value="Skincare">Skincare
+    <input type="radio" name="categories" value="Haircare">Haircare</div>
+    <br><br>
+
+  <input class="sb" type="submit" id="testLink" name="submit" value="Submit">
+</form>
+<FOOter >
+    <h2 id="fhead">"Be Yourself"</h2>
+    <h4>Everyone else is taken</h4>
+    <h5>Follow us on</h5>
+    <a href="www.fb.com"><img src="fb.png" width="20px" height="20px" alt=""></a>
+    
+    </FOOter>
+    
+  </body>
+</html>
