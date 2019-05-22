@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>M A U V E</title>
+    </head>
+  <body>
+    <h1 id="heading1" style="word-spacing:20px;">M A U V E</h1><h6 id="heading2">A fashion hub!</h6>
+    <div class="topnav" >
+  <a class="active" href="/home">Home</a>
+  
+<div class="dropdown">
+  <button class="dropbtn">Categories</button>
+  <div class="dropdown-content">
+    <a href="Men.html">Men</a>
+    <a href="Women.html">Women</a>
+    <a href="FashionShows.html">Fashion Shows</a>
+    <a href="StyleProfiles.html">Style Profiles</a>
+    <a href="Outfits.html">Outfits</a>
+    <a href="Makeups.html">Makeups</a>
+    <a href="Skincare.html">Skincare</a>
+    <a href="Haircare.html">Haircare</a>
+  </div>
+</div>
+  <a class="active" href="contact.html">Contact</a>
+  <a class="active" href="about.html">About</a>
+  <a class="active" href="register.html">LogIn</a>
+  <a class="active" href="register.html">SignUp</a>
+  <!-- 
+    
+   -->
+  <!-- when user is logged in -->
+  <!-- 
+
+   -->
+  <a class="active" href="content.html">Write</a>
+
+
+
+
+
+</div>
+<div class="parallax">
+
+
+<div class="parallax"><div  class="img">
+  <h3>Men Outfit</h3>
+  
+    <% for(var i=0;i<blogs.length;i++){ %>
+      <form action="/open" method="POST">
+    <%if(blogs[i].cat=='Men'){  %>
+      <input type="hidden" value=<%= blogs[i].timestamp %> name="filename">
+    <div class="posts"><%= blogs[i].title %></div>
+    <input type="submit" value="View"></form> 
+    <% }  %>
+    <% }; %>
+
+  </div>
+</div></div>
+
+
+
+
+
+
+<FOOter >
+<h2 id="fhead">"Be Yourself"</h2>
+<h4>Everyone else is taken</h4>
+<h5>Follow us on</h5>
+<a href="www.fb.com"><img src="fb.png" width="20px" height="20px" alt=""></a>
+
+</FOOter>
+
+  </body>
+</html>
